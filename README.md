@@ -1,6 +1,21 @@
 # canola_oil — agent skills
 
+[![skills.sh](https://skills.sh/b/0x67108864/skills)](https://skills.sh/0x67108864/skills)
+
 Open & paid AI agent skills in the [agentskills.io](https://agentskills.io) `SKILL.md` format. Compatible with Claude Code, Codex CLI, Cursor, Gemini CLI, OpenHands, and any other runtime that supports the open Agent Skills standard.
+
+## Quick install (any agent)
+
+```bash
+# Install all 5 skills via the official agent-skills CLI
+npx skills add 0x67108864/skills
+
+# Or install one skill
+npx skills add 0x67108864/skills --skill persistent-kb
+
+# Or via LobeHub
+npx -y @lobehub/market-cli skills install 0x67108864-skills-persistent-kb --agent claude-code
+```
 
 ## Skills
 
