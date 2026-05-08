@@ -2,6 +2,8 @@
 
 A SKILL.md-format Agent Skill that gives any AI coding agent a **persistent, searchable knowledge base** stored locally in a single SQLite file. Survives session restarts, context compaction, and machine reboots.
 
+> 💡 **Looking for the MCP server version?** Same functionality, exposed as 5 MCP tools (`kb_add`, `kb_search`, `kb_show`, `kb_list`, `kb_tag`). Works with any MCP-capable runtime: [`canola-persistent-kb-mcp`](https://pypi.org/project/canola-persistent-kb-mcp/) — `pip install canola-persistent-kb-mcp`. Source: https://github.com/0x67108864/persistent-kb-mcp
+
 ## Why this skill exists
 
 AI coding agents lose everything between sessions. Lessons learned, decisions taken, project context — all gone the moment the chat ends. This skill saves that knowledge to disk so the next session starts from where the last one left off.
