@@ -2,6 +2,8 @@
 
 A SKILL.md-format Agent Skill that routes a single research query across HN, Reddit, GitHub, and Brave Web Search, with source-specific query optimization baked in.
 
+> 💡 **Looking for the MCP server version?** Same functionality, exposed as 5 MCP tools (`research_hn`, `research_reddit`, `research_github`, `research_brave`, `research_all`). Works with any MCP-capable runtime: [`canola-research-dispatcher-mcp`](https://github.com/0x67108864/research-dispatcher-mcp) — PyPI publish pending. Source: https://github.com/0x67108864/research-dispatcher-mcp
+
 ## Install
 
 Drop the `research-dispatcher/` directory into your agent's skills folder:
